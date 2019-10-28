@@ -1,3 +1,5 @@
+#!/usr/bin/env zsh
+
 # AWS profile
 aws_profile() {
   local _aws_profile_color="166"
