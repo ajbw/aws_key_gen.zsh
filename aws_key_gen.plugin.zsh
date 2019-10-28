@@ -1,5 +1,5 @@
 # AWS profile
-function _aws_profile() {
+aws_profile() {
   local _aws_profile_color="166"
   if ! aws_key_gen status &>/dev/null; then
     _aws_profile_color="red"
